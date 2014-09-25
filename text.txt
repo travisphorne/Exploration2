@@ -1,0 +1,20 @@
+So, I decided to set up node.js and learn how to use it for my exploration. I used my windows machine instead of my linux machine for extra funzies.
+
+The links I used:
+http://nodeguide.com/beginner.html
+http://nodejs.org/docs/v0.4.4/api/globals.html
+http://nodejs.org/download/
+
+I mostly just did some simple hello world apps to test it and play around with it. So far I think node.js is really interesting and I'll probably put it to use soon. I've been meaning to get further into javascript anyways and this gives me a legitimate excuse. It's pretty cool that node allows you to set up a basic windows machine as a webserver with just one installation.
+
+Problem I had:
+(Error: ENOENT, stat 'C:\Users\User\AppData\Roaming\npm') 
+
+	I googled it and found that the fix was simple, I just had to manually create a file named "npm"
+	in the directory displayed. I did that and it worked perfectly. 
+	
+Problem 2:
+I couldn't run files ouside of the nodejs directory. So I had to create a new system variable for node.
+
+Code:
+https://github.com/tph9r6/Exploration2
